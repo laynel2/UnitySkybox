@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 7c8ffa4635f6bce4aa170a8c753a4c84, type: 2}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.16332, g: 0.3362698, b: 0.35637432, a: 1}
+  m_IndirectSpecularColor: {r: 0.17517592, g: 0.21915817, b: 0.30146497, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -241,8 +241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27c7ea5058c9cc34397762ae42e82d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filename: Sunset
-  RenderSize: 1024
+  filename: ForceImportTest
+  RenderSize: 256
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -315,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 6063878083939255852, guid: 0f78efb931053a84383c2c9814d8c6ad,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6063878083939255848, guid: 0f78efb931053a84383c2c9814d8c6ad,
         type: 3}

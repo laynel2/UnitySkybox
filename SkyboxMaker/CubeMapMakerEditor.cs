@@ -16,5 +16,9 @@ public class CubeMapMakerEditor : Editor
         {
             myScript.MakeCubeMap();
         }
+        if (GUILayout.Button("Restore Skybox"))
+        {
+            myScript.ReturnSkybox();
+        }
     }
 }
