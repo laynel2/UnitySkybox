@@ -198,13 +198,10 @@ public class CubeMapMaker : MonoBehaviour
     {
 
         Texture2D tex = null;
-        byte[] fileData;
 
         if (File.Exists(filePath))
         {
-            fileData = File.ReadAllBytes(filePath);
-            tex = new Texture2D(2, 2);
-            tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
+            tex = (Texture2D)AssetDatabase.LoadAssetAtPath(filePath, typeof(Texture2D));
         }
         return tex;
     }
